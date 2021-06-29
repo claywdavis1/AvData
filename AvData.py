@@ -1,7 +1,6 @@
 import requests
 import os
 import shutil
-import exceptions
 import Airport as a
 import Runway as r
 import pyppdf.patch_pyppeteer
