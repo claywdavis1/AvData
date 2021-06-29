@@ -1,5 +1,13 @@
 class Airport:
     def __init__(self,icao_ident):
+        """Airport a class that saves all FAA airport data.
+        ...
+        Attributes
+        ----------
+        icao_ident : str
+            Four character identifier of facility.
+        All others: see FAA APT.txt formatting for further info.
+        """
         self.icao_ident = icao_ident
         self.location = None
         self.facility_type = None
